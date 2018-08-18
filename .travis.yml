@@ -8,5 +8,7 @@ deploy:
   skip_cleanup: true
   on:
       branch: master
+  gem: href_scraper
+  gemspec: href-scraper.gemspec
   provider: rubygems
   api_key: $rubygems_api_key
