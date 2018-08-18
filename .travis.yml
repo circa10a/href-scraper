@@ -5,6 +5,7 @@ rvm:
 before_install: gem install bundler -v 1.16.1
 script: 'gem build href-scraper.gemspec && gem install href_scraper*.gem && href_scraper --url https://github.com'
 deploy:
+  skip_cleanup: true
   on:
       branch: master
   provider: rubygems
