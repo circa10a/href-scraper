@@ -5,7 +5,7 @@ require 'open-uri'
 require 'nokogiri'
 
 module HrefScraper
-  def fetch_html(url)
+  def self.fetch_html(url)
     html = open(url)
     Nokogiri::HTML(html)
   end
