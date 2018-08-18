@@ -1,5 +1,7 @@
 # href-scraper
 
+[![Build Status](https://travis-ci.org/circa10a/href-scraper.svg?branch=master)](https://travis-ci.org/circa10a/href-scraper)
+
 A ruby gem to get all the hrefs from a single URL
 
 ## Installation
