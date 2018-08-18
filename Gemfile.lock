@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    href-scraper (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  href-scraper!
+  nokogiri
+
+BUNDLED WITH
+   1.16.1
