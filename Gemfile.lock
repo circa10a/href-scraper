@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    href-scraper (0.1.0)
+    href_scraper (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -15,7 +15,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  href-scraper!
+  href_scraper!
   nokogiri
 
 BUNDLED WITH
