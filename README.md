@@ -7,7 +7,7 @@ A ruby gem to get all the hrefs from a single URL
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'href-scraper'
+gem 'href_scraper'
 ```
 
 And then execute:
@@ -16,12 +16,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install href-scraper
+    $ gem install href_scraper
 
 ## Usage
 
 ```bash
-❯ href-scraper --url https://github.com
+❯ href_scraper --url https://github.com
 https://github.com/
 https://help.github.com/terms
 https://help.github.com/privacy

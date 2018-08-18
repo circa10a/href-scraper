@@ -3,7 +3,7 @@ language: ruby
 rvm:
   - 2.5.1
 before_install: gem install bundler -v 1.16.1
-script: 'gem install nokogiri && gem build href-scraper.gemspec && gem install href-scraper-*.gem && ./bin/href-scraper --url https://github.com'
+script: 'gem install nokogiri && gem build href_scraper.gemspec && gem install href_scraper-*.gem && ./bin/href_scraper --url https://github.com'
 deploy:
   provider: rubygems
   api_key: $rubygems_api_key
