@@ -4,7 +4,7 @@
 [![Gem Version](https://badge.fury.io/rb/href_scraper.svg)](https://badge.fury.io/rb/href_scraper)
 ![Gem](https://img.shields.io/gem/dt/href_scraper.svg)
 
-A ruby gem to get all the hrefs from a single URL
+A ruby gem to get all the hrefs from a single URL(export as json)
 
 ## Installation
 
