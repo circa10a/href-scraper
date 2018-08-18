@@ -3,7 +3,9 @@ language: ruby
 rvm:
   - 2.5.1
 before_install: gem install bundler -v 1.16.1
-#script: 'gem build href-scraper.gemspec && gem install href_scraper-*.gem && href_scraper --url https://github.com'
+script: 'gem build href-scraper.gemspec &&  ./bin/href_scraper --url https://github.com'
 deploy:
+  on:
+      branch: master
   provider: rubygems
   api_key: $rubygems_api_key
