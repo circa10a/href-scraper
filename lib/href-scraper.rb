@@ -18,6 +18,6 @@ OptionParser.new do |opt|
       if link =~ /^http/
         puts link
       end
-  end
+    end
   end
 end.parse!
