@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/circa10a/href-scraper.svg?branch=master)](https://travis-ci.org/circa10a/href-scraper)
 [![Gem Version](https://badge.fury.io/rb/href_scraper.svg)](https://badge.fury.io/rb/href_scraper)
+![Gem](https://img.shields.io/gem/dt/href_scraper.svg)
 
 A ruby gem to get all the hrefs from a single URL
 
