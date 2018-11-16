@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "href_scraper"
-  spec.version       = "0.3.0"
+  spec.version       = "0.3.1"
   spec.authors       = ["Caleb Lemoine"]
   spec.email         = ["caleblemoine@gmail.com"]
   spec.licenses      = ['MIT']
