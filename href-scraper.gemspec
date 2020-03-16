@@ -14,5 +14,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_dependency "nokogiri", "~> 1.8.4", ">= 1.8.4"
+  spec.add_dependency "nokogiri", ">= 1.8.4", "< 1.11.0"
 end
